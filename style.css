@@ -1,0 +1,10 @@
+/*Typography*/
+@font-face {
+  font-family: Celestial;
+  src: url(https://cdn.jsdelivr.net/gh/mike-battaglia/innerspark-files/fonts/Celestial-Typeface.otf);
+}
+
+h1 {
+font-family: 'Celestial';
+font-weight: 400;
+}
