@@ -23,8 +23,32 @@ element {
   src: url(https://cdn.jsdelivr.net/gh/mike-battaglia/innerspark-files/fonts/Celestial2.otf);
 }
 
-h1 {
+@font-face {
+  font-family: Holtzman;
+  src: url(https://cdn.jsdelivr.net/gh/mike-battaglia/innerspark-files/fonts/Holtzman-Textured.otf);
+}
+
+@font-face {
+  font-family: Comfortaa-Regular;
+  src: url(https://cdn.jsdelivr.net/gh/mike-battaglia/innerspark-files/fonts/Comfortaa-Regular.ttf);
+}
+
+h1, h3, h5 {
 font-family: 'Celestial';
-font-weight: 400;
-color: var(--brown)!important;
+font-weight: 400!important;
+}
+
+h2, h4, h6 {
+font-family: 'Holtzman';
+font-weight: 400!important;
+}
+
+p, li, .link-list__link {
+  font-family: 'Comfortaa-Regular';
+  font-weight: 400;
+}
+
+a:not(.link-list__link):not(.btn) {
+  color: var(--queen);
+  text-decoration: underline;
 }
