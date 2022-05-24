@@ -1,3 +1,22 @@
+/*Colors*/
+:root {
+  --brown: #5B3B4A;
+  --princess: #FFE5F5;
+  --queen: #F12574;
+  --tangerine: #FFA089;
+  --green: #28392F;
+}
+
+/*
+
+Remember how to use variables:
+
+element {
+  background-color: var(--main-bg-color);
+}
+
+*/
+
 /*Typography*/
 @font-face {
   font-family: Celestial;
@@ -7,4 +26,5 @@
 h1 {
 font-family: 'Celestial';
 font-weight: 400;
+color: var(--brown);
 }
