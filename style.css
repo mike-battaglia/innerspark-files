@@ -57,3 +57,11 @@ blockquote{
   border-left: 2px solid var(--tangerine);
   padding-left: 2px;
 }
+
+.btn {
+  font-family: 'Holtzman';
+  font-weight:400;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
