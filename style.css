@@ -52,3 +52,8 @@ a:not(.link-list__link):not(.btn) {
   color: var(--queen);
   text-decoration: underline;
 }
+
+blockquote{
+  border-left: 2px solid var(--tangerine);
+  padding-left: 2px;
+}
