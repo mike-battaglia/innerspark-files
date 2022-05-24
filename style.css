@@ -26,5 +26,5 @@ element {
 h1 {
 font-family: 'Celestial';
 font-weight: 400;
-color: var(--brown);
+color: var(--brown)!important;
 }
