@@ -53,6 +53,10 @@ a:not(.link-list__link):not(.btn) {
   text-decoration: underline;
 }
 
+.syllabus__item a {
+  text-decoration: none!important;;
+}
+
 blockquote{
   border-left: 2px solid var(--tangerine);
   padding-left: 2px;
