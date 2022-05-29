@@ -50,4 +50,5 @@ p, li, .link-list__link {
 
 main p a {
   color: #f12574!important;
+  text-decoration: underline;
 }
