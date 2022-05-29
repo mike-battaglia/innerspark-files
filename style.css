@@ -47,3 +47,7 @@ p, li, .link-list__link {
   font-family: 'Comfortaa-Regular';
   font-weight: 400;
 }
+
+main p a {
+  color: #f12574;
+}
