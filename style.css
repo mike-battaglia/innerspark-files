@@ -47,25 +47,3 @@ p, li, .link-list__link {
   font-family: 'Comfortaa-Regular';
   font-weight: 400;
 }
-
-a:not(.link-list__link):not(.btn) {
-  color: var(--queen);
-  text-decoration: underline;
-}
-
-.syllabus__item a {
-  text-decoration: none!important;;
-}
-
-blockquote{
-  border-left: 2px solid var(--tangerine);
-  padding-left: 2px;
-}
-
-.btn {
-  font-family: 'Holtzman';
-  font-weight:400;
-  font-size: 1.25em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
