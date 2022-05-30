@@ -1,21 +1,25 @@
 /*Colors*/
 :root {
-  --brown: #5B3B4A;
-  --princess: #FFE5F5;
-  --queen: #F12574;
-  --tangerine: #FFA089;
-  --green: #28392F;
+  --brown: #5b3b4a;
+  --princess: #ffe5f5;
+  --queen: #f12574;
+  --tangerine: #ffa089;
+  --green: #28392f;
 }
 
 /*
+  
+  Remember how to use variables:
+  
+  element {
+    background-color: var(--main-bg-color);
+  }
+  
+  */
 
-Remember how to use variables:
-
-element {
-  background-color: var(--main-bg-color);
-}
-
-*/
+/*****************/
+/*WEB*PAGE*STYLES*/
+/*****************/
 
 /*Typography*/
 @font-face {
@@ -33,22 +37,34 @@ element {
   src: url(https://cdn.jsdelivr.net/gh/mike-battaglia/innerspark-files/fonts/Comfortaa-Regular.ttf);
 }
 
-h1, h3, h5 {
-font-family: 'Celestial';
-font-weight: 400!important;
+h1,
+h3,
+h5 {
+  font-family: "Celestial";
+  font-weight: 400 !important;
 }
 
-h2, h4, h6 {
-font-family: 'Holtzman';
-font-weight: 400!important;
+h2,
+h4,
+h6 {
+  font-family: "Holtzman";
+  font-weight: 400 !important;
 }
 
-p, li, .link-list__link {
-  font-family: 'Comfortaa-Regular';
+p,
+li,
+.link-list__link {
+  font-family: "Comfortaa-Regular";
   font-weight: 400;
 }
 
 main p a {
-  color: #f12574!important;
+  color: #f12574 !important;
   text-decoration: underline;
+}
+
+/*Buttons*/
+.btn--large {
+  font-family: "Holtzman";
+  font-weight: 400;
 }
