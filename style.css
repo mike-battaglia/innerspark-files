@@ -64,7 +64,19 @@ main p a {
 }
 
 /*Buttons*/
-.btn--large {
-  font-family: "Holtzman";
+.btn--small {
+  font-family: "comfortaa";
   font-weight: 400;
+}
+
+.btn--medium {
+  font-family: "holtzman";
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.btn--large {
+  font-family: "celestial";
+  font-weight: 400;
+  font-size: 1.75em;
 }
