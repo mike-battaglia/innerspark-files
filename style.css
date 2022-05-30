@@ -85,4 +85,8 @@ main p a {
   font-size: 1.75em;
 }
 
-
+/*Elements*/
+blockquote {
+  border-left: 4px solid var(--tangerine);
+  padding-left: 8px;
+}
