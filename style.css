@@ -101,6 +101,7 @@ blockquote {
 
 #kjb-mobile-banner button {
   background-color: var(--brown)!important;
+  font-family: 'comfortaa';
 }
 
 .flash--success, .flash--success h5 {
