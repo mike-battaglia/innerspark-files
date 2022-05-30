@@ -90,3 +90,22 @@ blockquote {
   border-left: 4px solid var(--tangerine);
   padding-left: 8px;
 }
+
+/*Post-checkout library portal elements*/
+
+#kjb-mobile-banner {
+  background-color: var(--tangerine)!important;
+  color: var(--brown)!important;
+  
+}
+
+#kjb-mobile-banner button {
+  background-color: var(--brown)!important;
+}
+
+.flash--success, .flash--success h5 {
+  background-color: var(--tangerine);
+  color: var(--brown)!important;
+  font-family: 'holtzman';
+  font-size: 1.2em!important;
+}
