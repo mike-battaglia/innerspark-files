@@ -47,14 +47,14 @@ h5 {
 
 h2,
 h4,
-h6 {
+h6, .announcement__date {
   font-family: "Holtzman";
   font-weight: 400 !important;
 }
 
 p,
 li,
-.link-list__link, .copyright, .announcement__body {
+.link-list__link, .copyright, .announcement__body, .announcement__link {
   font-family: "Comfortaa-Regular";
   /*font-weight: 400;*/
 }
@@ -112,3 +112,12 @@ blockquote {
   font-size: 1.2em!important;
 }
 
+a.announcement__link {
+  background-color: var(--princess)!important;
+  margin: auto;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 8px;
+  border-radius: 8px
+}
