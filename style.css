@@ -5,6 +5,7 @@
   --queen: #f12574;
   --tangerine: #ffa089;
   --green: #28392f;
+  --blush: #FFF9FD;
 }
 
 /*
@@ -53,9 +54,9 @@ h6 {
 
 p,
 li,
-.link-list__link, .copyright {
+.link-list__link, .copyright, .announcement__body {
   font-family: "Comfortaa-Regular";
-  font-weight: 400;
+  /*font-weight: 400;*/
 }
 
 main p a {
@@ -110,3 +111,4 @@ blockquote {
   font-family: 'holtzman';
   font-size: 1.2em!important;
 }
+
