@@ -54,9 +54,17 @@ h6, .announcement__date {
 
 p,
 li,
-.link-list__link, .copyright, .announcement__body, .announcement__link {
+.link-list__link,
+.copyright,
+.announcement__body,
+.announcement__link {
   font-family: "Comfortaa-Regular";
   /*font-weight: 400;*/
+}
+
+.auth__label,
+.auth__link {
+  font-family: "Comfortaa-Regular";!important
 }
 
 main p a {
