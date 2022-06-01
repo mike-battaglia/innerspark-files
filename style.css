@@ -154,3 +154,24 @@ a.announcement__link {
   font-family:'holtzman';
   font-size: 1em;
 }
+
+/******************/
+/*COMMUNITY*STYLES*/
+/******************/
+
+
+#feed-link,
+#topics-link,
+.top-bar-link {
+  font-weight: 400;
+  font-family: 'Comfortaa'!important;
+}
+
+.top-bar-link {
+  color: var(--tangerine)!important;
+}
+
+.avatar-name {
+  font-size: 1.5em;
+  color: var(--brown);
+}
