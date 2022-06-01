@@ -181,3 +181,7 @@ a.announcement__link {
   font-family: 'Comfortaa';
   color: var(--brown);
 }
+
+.top-bar-img {
+  max-height: 72px;
+}
