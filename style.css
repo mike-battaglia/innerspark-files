@@ -162,7 +162,8 @@ a.announcement__link {
 
 #feed-link,
 #topics-link,
-.top-bar-link {
+.top-bar-link,
+.post-topic {
   font-weight: 400;
   font-family: 'Comfortaa'!important;
 }
