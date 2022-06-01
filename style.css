@@ -149,3 +149,8 @@ a.announcement__link {
 .dashboard-welcome-title {
   line-height: 0.8;
 }
+
+.product-title-back {
+  font-family:'holtzman';
+  font-size: 1em;
+}
