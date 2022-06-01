@@ -140,20 +140,38 @@ a.announcement__link {
   font-family: 'Comfortaa';
 }
 
-.dashboard-welcome-btn {
+.dashboard-welcome-btn,
+.comment-reply,
+.comment-edit,
+.btn.comments-btn {
   font-family: 'Celestial';
   font-weight: 400;
   font-size: 1.5em;
+}
+
+.comment-reply {
+  text-decoration: underline;
+}
+
+.btn.comments-btn {
+  color: #fff;
 }
 
 .dashboard-welcome-title {
   line-height: 0.8;
 }
 
-.product-title-back {
+.product-title-back,
+.comment-name {
   font-family:'holtzman';
   font-size: 1em;
+  font-weight: 400!important;
 }
+
+.comment-name {
+  font-size: 1.3em;
+}
+
 
 /******************/
 /*COMMUNITY*STYLES*/
