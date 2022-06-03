@@ -200,9 +200,14 @@ a.announcement__link {
   color: var(--brown);
 }
 
-.like-button-dropdown a {
+a.post-action,
+a.comment-action {
   font-family: "Comfortaa";
   color: var(--tangerine);
+}
+
+a.like-button-liked {
+  color: var(--queen)!important;
 }
 
 .top-bar-img {
