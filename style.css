@@ -141,10 +141,16 @@ a.announcement__link {
 }
 
 .dashboard-welcome-btn,
+.comment-reply,
+.comment-edit,
 .btn.comments-btn {
   font-family: 'Celestial';
   font-weight: 400;
   font-size: 1.5em;
+}
+
+.comment-reply {
+  text-decoration: underline;
 }
 
 .btn.comments-btn {
@@ -208,6 +214,7 @@ a.like-button-liked {
   max-height: 72px;
 }
 
-time {
+time,
+.comments-more {
   font-family: "Comfortaa";
 }
