@@ -229,7 +229,16 @@ time,
   color: var(--tangerine)!important;
 }
 
-.comment-submit-container {
-  font-family: "Comfortaa";
-  font-weight: 400!important;
+.search-null {
+  font-size: 2em;
+  color: var(--brown)!important;
+}
+
+.search-null strong {
+  color: var(--brown)!important;
+  font-weight: 400;
+}
+
+.search-null:before {
+  Content:"Try something else. "
 }
