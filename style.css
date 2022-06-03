@@ -200,6 +200,11 @@ a.announcement__link {
   color: var(--brown);
 }
 
+.like-button-dropdown a {
+  font-family: "Comfortaa";
+  color: var(--tangerine);
+}
+
 .top-bar-img {
   max-height: 72px;
 }
