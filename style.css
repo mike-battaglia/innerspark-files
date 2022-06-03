@@ -34,7 +34,7 @@
 }
 
 @font-face {
-  font-family: Comfortaa-Regular;
+  font-family: Comfortaa;
   src: url(https://cdn.jsdelivr.net/gh/mike-battaglia/innerspark-files/fonts/Comfortaa-Regular.ttf);
 }
 
@@ -58,13 +58,13 @@ li,
 .copyright,
 .announcement__body,
 .announcement__link {
-  font-family: "Comfortaa-Regular";
+  font-family: "Comfortaa";
   /*font-weight: 400;*/
 }
 
 .auth__label,
 .auth__link {
-  font-family: "Comfortaa-Regular";!important
+  font-family: "Comfortaa";!important
 }
 
 main p a {
@@ -78,18 +78,18 @@ main p a {
 
 /*Buttons*/
 .btn--small {
-  font-family: "comfortaa";
+  font-family: "Comfortaa";
   font-weight: 400;
 }
 
 .btn--medium, .btn--med {
-  font-family: "holtzman";
+  font-family: "Holtzman";
   font-weight: 400;
   font-size: 1.5em;
 }
 
 .btn--large {
-  font-family: "celestial";
+  font-family: "Celestial";
   font-weight: 400;
   font-size: 1.75em;
 }
@@ -110,13 +110,13 @@ blockquote {
 
 #kjb-mobile-banner button {
   background-color: var(--brown)!important;
-  font-family: 'comfortaa';
+  font-family: 'Comfortaa';
 }
 
 .flash--success, .flash--success h5 {
   background-color: var(--tangerine);
   color: var(--brown)!important;
-  font-family: 'holtzman';
+  font-family: 'Holtzman';
   font-size: 1.2em!important;
 }
 
@@ -163,7 +163,7 @@ a.announcement__link {
 
 .product-title-back,
 .comment-name {
-  font-family:'holtzman';
+  font-family:'Holtzman';
   font-size: 1em;
   font-weight: 400!important;
 }
