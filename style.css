@@ -219,3 +219,12 @@ time,
 .panel-topic-post-count {
   font-family: "Comfortaa";
 }
+
+
+.sidebar * {
+  color: var(--brown)!important;
+}
+
+.sidebar a {
+  color: var(--tangerine)!important;
+}
