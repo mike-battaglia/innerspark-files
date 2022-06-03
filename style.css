@@ -242,3 +242,9 @@ time,
 .search-null:before {
   Content:"Try something else. "
 }
+
+mark,
+.mark {
+  background-color: var(--princess);
+  padding: 0px;
+}
