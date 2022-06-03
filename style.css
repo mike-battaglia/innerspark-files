@@ -146,11 +146,6 @@ a.announcement__link {
 .btn.comments-btn {
   font-family: 'Celestial';
   font-weight: 400;
-  font-size: 1.5em;
-}
-
-.comment-reply {
-  text-decoration: underline;
 }
 
 .btn.comments-btn {
@@ -195,7 +190,8 @@ a.announcement__link {
   color: var(--brown);
 }
 
-.trix-content {
+.trix-content,
+.user-info-type {
   font-family: 'Comfortaa';
   color: var(--brown);
 }
@@ -221,10 +217,17 @@ time,
 }
 
 
+.user-info-name,
 .sidebar * {
   color: var(--brown)!important;
 }
 
 .sidebar a {
   color: var(--tangerine)!important;
+}
+
+.user-info-buttons .btn-primary {
+  background-color: var(--brown);
+  border-color: var(--brown);
+  font-family: "Comfortaa";
 }
