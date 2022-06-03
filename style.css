@@ -215,6 +215,7 @@ a.like-button-liked {
 }
 
 time,
-.comments-more {
+.comments-more,
+.panel-topic-post-count {
   font-family: "Comfortaa";
 }
