@@ -188,6 +188,14 @@ a.announcement__link {
   font-size: 18px;
 }
 
+.audio-meta {
+  font-family: 'Comfortaa';
+}
+
+.audio-parent-title {
+  font-family: 'Celestial';
+}
+
 /******************/
 /*COMMUNITY*STYLES*/
 /******************/
