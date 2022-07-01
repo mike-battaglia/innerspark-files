@@ -200,6 +200,11 @@ a.announcement__link {
   border-bottom: 2px solid #554444;
 }
 
+
+h6.panel__heading {
+  font-size: 24px;
+}
+
 /******************/
 /*COMMUNITY*STYLES*/
 /******************/
