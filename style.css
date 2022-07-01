@@ -135,7 +135,7 @@ a.announcement__link {
 /***************/
 .product-outline-post,
 .dashboard-welcome-subtitle,
-.dashboard-tabs-tab, .header-menu {
+.dashboard-tabs-tab, .header-menu a {
   font-weight: 400;
   font-family: 'Comfortaa';
 }
