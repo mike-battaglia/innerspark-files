@@ -135,7 +135,8 @@ a.announcement__link {
 /***************/
 .product-outline-post,
 .dashboard-welcome-subtitle,
-.dashboard-tabs-tab, .header-menu a {
+.dashboard-tabs-tab, .header-menu a,
+.breadcrumbs {
   font-weight: 400;
   font-family: 'Comfortaa';
 }
@@ -174,6 +175,11 @@ a.announcement__link {
 
 .panel__block h5 {
   font-size: 32px;
+}
+
+.media-body.media-middle h2 {
+  font-family: 'Comfortaa';
+  color: var(--tangerine)!important;
 }
 
 /******************/
