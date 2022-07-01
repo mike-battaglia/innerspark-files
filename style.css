@@ -162,7 +162,7 @@ a.announcement__link {
 }
 
 .product-title-back,
-.comment-name {
+.comment-name, .announcement {
   font-family:'Holtzman';
   font-size: 1em;
   font-weight: 400!important;
