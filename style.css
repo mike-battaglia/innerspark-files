@@ -172,6 +172,9 @@ a.announcement__link {
   font-size: 1.3em;
 }
 
+.panel__block h5 {
+  font-size: 32px;
+}
 
 /******************/
 /*COMMUNITY*STYLES*/
