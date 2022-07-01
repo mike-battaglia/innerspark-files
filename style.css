@@ -182,6 +182,12 @@ a.announcement__link {
   color: var(--tangerine)!important;
 }
 
+.media-right h3 {
+  font-family: 'Holtzman';
+  color: var(--princess);
+  font-size: 18px;
+}
+
 /******************/
 /*COMMUNITY*STYLES*/
 /******************/
