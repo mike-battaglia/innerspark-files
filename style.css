@@ -280,3 +280,8 @@ mark,
   background-color: var(--princess);
   padding: 0px;
 }
+
+.top-bar-text strong {
+  font-family: 'Celestial';
+  font-weight: 400!important;
+}
