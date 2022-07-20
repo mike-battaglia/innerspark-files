@@ -234,6 +234,7 @@ div.player__video {
 .trix-content {
   font-family: 'Comfortaa';
   color: var(--brown);
+  font-size: 18px;
 }
 
 a.post-action,
