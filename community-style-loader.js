@@ -6,4 +6,4 @@ link.media = "screen,print";
 
 document.getElementsByTagName( "head" )[0].appendChild( link );
 
-console.log("CSS Loaded from Github.");
+console.log("Community Style Loaded from Github.");
