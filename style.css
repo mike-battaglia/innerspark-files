@@ -289,3 +289,11 @@ mark,
   font-family: 'Celestial';
   font-weight: 400!important;
 }
+
+.communities h2 {
+    font-size: 32px;
+}
+
+.communities h3 {
+    font-size: 28px;
+}
