@@ -228,6 +228,7 @@ div.player__video {
 
 .avatar-name {
   color: var(--brown);
+  font-size: 22px;
 }
 
 .trix-content {
@@ -301,8 +302,4 @@ mark,
 
 .panel-topic-description-wrapper {
     color: var(--brown);
-}
-
-.communities .trix-content {
-  color: green!important;
 }
