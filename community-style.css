@@ -37,3 +37,7 @@ h6, .announcement__date {
   font-family: "Holtzman";
   font-weight: 400 !important;
 }
+
+.community-guidelines li {
+  padding-top: 6px;
+}
