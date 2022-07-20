@@ -292,8 +292,14 @@ mark,
 
 .communities h2 {
     font-size: 32px;
+    color: var(--brown);
 }
 
 .communities h3 {
     font-size: 28px;
+    color: var(--brown);
+}
+
+.panel-topic-description-wrapper {
+    color: var(--brown);
 }
