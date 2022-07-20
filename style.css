@@ -303,3 +303,7 @@ mark,
 .panel-topic-description-wrapper {
     color: var(--brown);
 }
+
+.communities .comment-reply {
+  text-decoration: none!important;
+}
