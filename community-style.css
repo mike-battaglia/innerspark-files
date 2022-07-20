@@ -1,0 +1,39 @@
+/*Colors*/
+:root {
+  --brown: #5b3b4a;
+  --princess: #ffe5f5;
+  --queen: #f12574;
+  --tangerine: #ffa089;
+  --green: #28392f;
+  --blush: #FFF9FD;
+}
+
+/*Typography*/
+@font-face {
+  font-family: Celestial;
+  src: url(https://cdn.jsdelivr.net/gh/mike-battaglia/innerspark-files/fonts/Celestial2.otf);
+}
+
+@font-face {
+  font-family: Holtzman;
+  src: url(https://cdn.jsdelivr.net/gh/mike-battaglia/innerspark-files/fonts/Holtzman-Textured.otf);
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url(https://cdn.jsdelivr.net/gh/mike-battaglia/innerspark-files/fonts/Comfortaa-Regular.ttf);
+}
+
+h1,
+h3,
+h5 {
+  font-family: "Celestial";
+  font-weight: 400 !important;
+}
+
+h2,
+h4,
+h6, .announcement__date {
+  font-family: "Holtzman";
+  font-weight: 400 !important;
+}
