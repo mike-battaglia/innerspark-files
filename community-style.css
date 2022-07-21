@@ -80,3 +80,12 @@ h6, .sidebar h6 {
 .community-guidelines li {
   padding-top: 6px;
 }
+
+.user-info-buttons a.btn-primary {
+  background-color: var(--queen);
+  border-color: var(--queen);
+}
+
+.user-info-type {
+  color: var(--tangerine);
+}
