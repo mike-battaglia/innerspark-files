@@ -130,6 +130,10 @@ a.announcement__link {
   border-radius: 8px
 }
 
+.user__login {
+  font-family: Comfortaa;
+}
+
 /***************/
 /*COURSE*STYLES*/
 /***************/
