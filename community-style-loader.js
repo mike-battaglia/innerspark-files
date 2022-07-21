@@ -1,5 +1,5 @@
 var link = document.createElement( "link" );
-link.href = "https://mike-battaglia.github.io/innerspark-files/style.css";
+link.href = "https://mike-battaglia.github.io/innerspark-files/community-style.css";
 link.type = "text/css";
 link.rel = "stylesheet";
 link.media = "screen,print";
