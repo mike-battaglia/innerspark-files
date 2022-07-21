@@ -26,6 +26,8 @@
 
 * {
   font-family: Comfortaa;
+  font-size: 16px;
+  color: var(--brown);
 }
 
 h1,
@@ -40,6 +42,39 @@ h4,
 h6, .announcement__date {
   font-family: "Holtzman";
   font-weight: 400 !important;
+}
+
+h1, .sidebar h1 {
+  font-size: 32px;
+}
+
+h2, .sidebar h2, .panel-topic-title {
+  font-size: 32px;
+  color: var(--brown);
+}
+
+h3, .sidebar h3 {
+  font-size: 26px;
+  color: var(--brown);
+}
+
+h4, .sidebar h4 {
+  font-size: 26px;
+}
+
+h5, .sidebar h5 {
+  font-size: 22px;
+}
+
+h6, .sidebar h6 {
+  font-size: 22px;
+}
+
+.top-bar-text strong {
+  font-family: Celestial;
+  color: var(--princess);
+  font-weight: 400;
+  font-size: 22px;
 }
 
 .community-guidelines li {
