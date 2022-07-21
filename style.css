@@ -213,6 +213,10 @@ div.player__video {
     background-color: var(--tangerine)!important;
 }
 
+.footer__menu a {
+  font-family: comfortaa;
+}
+
 /******************/
 /*COMMUNITY*STYLES*/
 /******************/
