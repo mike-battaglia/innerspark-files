@@ -24,6 +24,10 @@
   src: url(https://cdn.jsdelivr.net/gh/mike-battaglia/innerspark-files/fonts/Comfortaa-Regular.ttf);
 }
 
+* {
+  font-family: Comfortaa;
+}
+
 h1,
 h3,
 h5 {
