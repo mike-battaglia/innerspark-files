@@ -70,6 +70,10 @@ h6, .sidebar h6 {
   font-size: 22px;
 }
 
+.content {
+  background-color: #fee;
+}
+
 .top-bar-text strong {
   font-family: Celestial;
   color: var(--princess);
