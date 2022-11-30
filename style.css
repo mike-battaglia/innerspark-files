@@ -8,6 +8,12 @@
   --blush: #FFF9FD;
 }
 
+@media print {
+         #section-header, #section-footer, #section-two_step {
+           display: none!important;
+         }
+}
+
 /*
   
   Remember how to use variables:
