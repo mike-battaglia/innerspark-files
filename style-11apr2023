@@ -1,0 +1,346 @@
+/*Colors*/
+:root {
+  --brown: #5b3b4a;
+  --princess: #ffe5f5;
+  --queen: #f12574;
+  --tangerine: #ffa089;
+  --green: #28392f;
+  --blush: #FFF9FD;
+}
+
+@media print {
+         #section-header, #section-footer, #section-two_step {
+           display: none!important;
+         }
+}
+
+/*
+  
+  Remember how to use variables:
+  
+  element {
+    background-color: var(--main-bg-color);
+  }
+  
+  */
+
+/*****************/
+/*WEB*PAGE*STYLES*/
+/*****************/
+
+/*Typography*/
+@font-face {
+  font-family: Celestial;
+  src: url(https://cdn.jsdelivr.net/gh/mike-battaglia/innerspark-files/fonts/Celestial2.otf);
+}
+
+@font-face {
+  font-family: Holtzman;
+  src: url(https://cdn.jsdelivr.net/gh/mike-battaglia/innerspark-files/fonts/Holtzman-Textured.otf);
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url(https://cdn.jsdelivr.net/gh/mike-battaglia/innerspark-files/fonts/Comfortaa-Regular.ttf);
+}
+
+h1,
+h3,
+h5 {
+  font-family: "Celestial";
+  font-weight: 400 !important;
+}
+
+h2,
+h4,
+h6, .announcement__date {
+  font-family: "Holtzman";
+  font-weight: 400 !important;
+}
+
+p,
+li,
+.link-list__link,
+.copyright,
+.announcement__body,
+.announcement__link {
+  font-family: "Comfortaa";
+  /*font-weight: 400;*/
+}
+
+.auth__label,
+.auth__link {
+  font-family: "Comfortaa";!important
+}
+
+main p a {
+  color: var(--queen)!important;
+  text-decoration: underline;
+}
+
+.accordion h5, .card__price {
+  font-size: 1.5em;
+}
+
+/*Buttons*/
+.btn--small {
+  font-family: "Comfortaa";
+  font-weight: 400;
+}
+
+.btn--medium, .btn--med {
+  font-family: "Holtzman";
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.btn--large {
+  font-family: "Celestial";
+  font-weight: 400;
+  font-size: 1.75em;
+}
+
+/*Elements*/
+blockquote {
+  border-left: 4px solid var(--tangerine);
+  padding-left: 8px;
+}
+
+/*Post-checkout library portal elements*/
+
+#kjb-mobile-banner {
+  background-color: var(--tangerine)!important;
+  color: var(--brown)!important;
+  
+}
+
+#kjb-mobile-banner button {
+  background-color: var(--brown)!important;
+  font-family: 'Comfortaa';
+}
+
+.flash--success, .flash--success h5 {
+  background-color: var(--tangerine);
+  color: var(--brown)!important;
+  font-family: 'Holtzman';
+  font-size: 1.2em!important;
+}
+
+a.announcement__link {
+  background-color: var(--princess)!important;
+  margin: auto;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 8px;
+  border-radius: 8px
+}
+
+.user__login {
+  font-family: Comfortaa;
+}
+
+/***************/
+/*COURSE*STYLES*/
+/***************/
+.product-outline-post,
+.dashboard-welcome-subtitle,
+.dashboard-tabs-tab, .header-menu a,
+.breadcrumbs {
+  font-weight: 400;
+  font-family: 'Comfortaa';
+}
+
+.dashboard-welcome-btn,
+.comment-reply,
+.comment-edit,
+.btn.comments-btn {
+  font-family: 'Celestial';
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.comment-reply {
+  text-decoration: underline;
+}
+
+.btn.comments-btn {
+  color: #fff;
+}
+
+.dashboard-welcome-title {
+  line-height: 0.8;
+}
+
+.product-title-back,
+.comment-name, .announcement {
+  font-family:'Holtzman';
+  font-size: 24px;
+  font-weight: 400!important;
+}
+
+.comment-name {
+  font-size: 1.3em;
+}
+
+.panel__block h5 {
+  font-size: 32px;
+}
+
+.media-body.media-middle h2 {
+  font-family: 'Comfortaa';
+  color: var(--tangerine)!important;
+}
+
+.media-right h3 {
+  font-family: 'Holtzman';
+  color: var(--princess);
+  font-size: 18px;
+}
+
+.audio-meta {
+  font-family: 'Comfortaa';
+}
+
+.audio-parent-title {
+  font-family: 'Celestial';
+}
+
+.downloads {
+  border-bottom: 2px solid #554444;
+}
+
+
+h6.panel__heading {
+  font-size: 24px;
+}
+
+div.player__video {
+    background-color: var(--tangerine)!important;
+}
+
+.footer__menu a {
+  font-family: comfortaa;
+}
+
+/******************/
+/*COMMUNITY*STYLES*/
+/******************/
+
+
+#feed-link,
+#topics-link,
+.top-bar-link,
+.post-topic {
+  font-weight: 400;
+  font-family: 'Comfortaa'!important;
+}
+
+.top-bar-link {
+  color: var(--tangerine)!important;
+}
+
+.avatar-name {
+  color: var(--brown);
+  font-size: 22px;
+}
+
+.trix-content {
+  font-family: 'Comfortaa';
+  color: var(--brown);
+  font-size: 18px;
+}
+
+a.post-action,
+a.comment-action {
+  font-family: "Comfortaa";
+  color: var(--tangerine);
+}
+
+a.like-button-liked {
+  color: var(--queen)!important;
+}
+
+.top-bar-img {
+  max-height: 72px;
+}
+
+time,
+.comments-more,
+.panel-topic-post-count {
+  font-family: "Comfortaa";
+}
+
+
+.sidebar * {
+  color: var(--brown)!important;
+}
+
+.sidebar a {
+  color: var(--tangerine)!important;
+}
+
+.search-null {
+  font-size: 2em;
+  color: var(--brown)!important;
+}
+
+.search-null strong {
+  color: var(--brown)!important;
+  font-weight: 400;
+}
+
+.search-null:before {
+  Content:"Try something else. "
+}
+
+mark,
+.mark {
+  background-color: var(--princess);
+  padding: 0px;
+}
+
+.top-bar-text strong {
+  font-family: 'Celestial';
+  font-weight: 400!important;
+}
+
+.communities h2 {
+    font-size: 32px;
+    color: var(--brown);
+}
+
+.communities h3 {
+    font-size: 28px;
+    color: var(--brown);
+}
+
+.panel-topic-description-wrapper {
+    color: var(--brown);
+}
+
+/*EDIT 11APR2023 IN KAJABI COURSE PRODUCT*/
+
+h3.category-post-title {
+color: var(--queen)!important;
+font-family: "Holtzman";
+font-size: 24px;
+}
+
+.downloads-trigger {
+color: white;
+}
+
+.post-actions-complete[data-post-completion-toggle="true"] {
+background-color: var(--queen);
+color: white;
+}
+
+.dashboard-tabs-tab {
+color: var(--brown)!important;
+text-transform: none;
+}
+
+.comment-reply {
+text-transform: lowercase;
+}
