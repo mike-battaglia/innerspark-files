@@ -318,3 +318,29 @@ mark,
 .panel-topic-description-wrapper {
     color: var(--brown);
 }
+
+/*EDIT 11APR2023 IN KAJABI COURSE PRODUCT*/
+
+h3.category-post-title {
+color: var(--queen)!important;
+font-family: "Holtzman";
+font-size: 24px;
+}
+
+.downloads-trigger {
+color: white;
+}
+
+.post-actions-complete[data-post-completion-toggle="true"] {
+background-color: var(--queen);
+color: white;
+}
+
+.dashboard-tabs-tab {
+color: var(--brown)!important;
+text-transform: none;
+}
+
+.comment-reply {
+text-transform: lowercase;
+}
