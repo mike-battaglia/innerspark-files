@@ -149,6 +149,7 @@ a.announcement__link {
 .breadcrumbs {
   font-weight: 400;
   font-family: 'Comfortaa';
+  text-transform: none;
 }
 
 .dashboard-welcome-btn,
