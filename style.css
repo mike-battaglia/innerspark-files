@@ -345,3 +345,9 @@ text-transform: none;
 .comment-reply {
 text-transform: lowercase;
 }
+
+
+.quiz-primary-button {
+  color: white;
+  background-color: var(--brown);
+}
