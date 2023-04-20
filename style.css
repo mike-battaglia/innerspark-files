@@ -346,8 +346,7 @@ text-transform: none;
 text-transform: lowercase;
 }
 
-
 .quiz-primary-button {
-  color: white;
-  background-color: var(--brown);
+  color: white!important;
+  background-color: var(--brown)!important;
 }
